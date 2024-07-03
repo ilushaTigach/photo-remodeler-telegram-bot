@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
 @Data
-@PropertySource("application.properties")
+@PropertySource("/application.properties")
 @Configuration
 public class BotConfig {
 

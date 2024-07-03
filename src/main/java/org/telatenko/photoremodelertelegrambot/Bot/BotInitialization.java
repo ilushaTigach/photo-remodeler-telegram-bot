@@ -12,7 +12,7 @@ import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
 public class BotInitialization {
 
     @Autowired
-    ImageCaptionBot imageCaptionBot;
+    MenuImageCaptionBot imageCaptionBot;
 
     @EventListener({ContextRefreshedEvent.class})
     public void init() throws TelegramApiException {
